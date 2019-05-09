@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: cornflowerblue;
+    /* This is a comment*/
+    font-size: 200%
+}
+
+.POC {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#LastFooter {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.LinkOnBlack {
+    color: yellow;
+}
