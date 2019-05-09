@@ -1,7 +1,14 @@
+article {
+    color: white;
+}
+
 .menu_element {
-    color: rgb(0, 0, 0);
+    color: black;
     /* This is a comment*/
-    font-size: 200%
+    font-size: 200%;
+    font-size: 30pt; 
+    text-shadow: -4px -5px 10px white, 5px 4px 10px white;
+    white-space: pre-wrap;
 }
 
 .LinkOnBlack {
