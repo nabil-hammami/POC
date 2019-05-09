@@ -1,8 +1,11 @@
-h1 {
+.menu_element {
     color: rgb(0, 0, 0);
-    background-color: cornflowerblue;
     /* This is a comment*/
     font-size: 200%
+}
+
+.LinkOnBlack {
+    color: yellow;
 }
 
 .POC {
@@ -15,10 +18,6 @@ h1 {
     color: white;
     background-color: black;
     text-align: center;
-}
-
-.LinkOnBlack {
-    color: yellow;
 }
 
 #social {
