@@ -11,7 +11,7 @@ article {
     font-size: 200%;
     font-size: 30pt;
     text-shadow: -4px -5px 10px white, 5px 4px 10px white;
-    white-space: pre-wrap;
+    padding-right: 50px;
 }
 
 .LinkOnBlack {
@@ -22,6 +22,16 @@ article {
     color: white;
     background-color: black;
     text-align: center;
+}
+
+.Gherkin_functionnality {
+    color: white;
+    text-decoration: underline;
+}
+
+.Gherkin_text {
+    color: white;
+    white-space: pre;
 }
 
 /* ID */
