@@ -6,9 +6,48 @@ article {
 
 /* CLASSES */
 
+.Main_Body {
+    background-color: black;
+    background-image: url("../IMG/Work_In_Progress.png");
+    background-repeat: no-repeat;
+}
+
 .menu_element {
     color: black;
     font-size: 200%;
+    font-size: 30pt;
+    text-shadow: -4px -5px 10px white, 5px 4px 10px white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.menu:link {
+    color: black;
+    text-decoration: none;
+    font-size: 30pt;
+    text-shadow: -4px -5px 10px white, 5px 4px 10px white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.menu:visited {
+    color: black;
+    font-size: 30pt;
+    text-shadow: -4px -5px 10px white, 5px 4px 10px white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.menu:hover {
+    color: black;
+    font-size: 40pt;
+    text-shadow: -4px -5px 10px white, 5px 4px 10px white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.menu:active {
+    color: black;
     font-size: 30pt;
     text-shadow: -4px -5px 10px white, 5px 4px 10px white;
     padding-right: 20px;
