@@ -2,7 +2,8 @@
 POC regarding use of automation testing tools
 
 ## Approach
-Dev will be done using a TDD (Test Driven Development) approach
+Dev will be done using a TDD (Test Driven Development) approach.
+See fig2 on http://www.agiledata.org/essays/tdd.html
 
 ## Used tools
 - Visual Studio Code 
