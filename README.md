@@ -14,3 +14,5 @@ Dev will be done using a TDD (Test Driven Development) approach
 - 0.2.x : Client side only : Coding(Javascript) + Unit Testing. Mocking database with data stored in a text file.
 - 0.3.x : Server side : Coding(NodeJs) + Testing(Intergration+E2E), Data stored in a MySQL database.
 - 1.0 : Final version.
+
+Ongoing work available here : https://nabil-hammami.github.io/POC/
