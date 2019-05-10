@@ -1,0 +1,15 @@
+T2,birch plank,1,birch log,T2,1,,,
+T2,copper bar,1,copper ore,T2,1,,,
+T2,limestone block,1,limestone,T2,1,,,
+T2,simple cloth,1,cotton,T2,1,,,
+T2,stiff leather,1,rugged hide,T2,1,,,
+T3,bronze bar,1,copper bar,T2,1,tin ore,T3,2
+T3,chestnut log,1,birch log,T2,3,,,
+T3,chestnut plank,1,birch plank,T2,1,chestnut log,T3,2
+T3,flax,1,cotton,T2,3,,,
+T3,neat cloth,1,simple cloth,T2,1,flax,,2
+T3,sandstone,1,limestone,T2,3,,,
+T3,sandstone block,1,limestone block,T2,1,sandstone,T3,2
+T3,thick leather,1,stiff leather,T2,1,thin hide,T3,2
+T3,thin hide,1,rugged hide,T2,3,,,
+T3,tin ore,1,copper ore,T2,3,,,
