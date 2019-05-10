@@ -1,3 +1,4 @@
-Ligne 1
-Ligne 2
-Ligne 3
+Functionnality 1 : I want to be able to list available receipes
+  GIVEN the database is not empty
+  WHEN I click on the "Receipe list" button
+  THEN a list of all available receipes should appear
