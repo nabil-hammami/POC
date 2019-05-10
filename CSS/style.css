@@ -1,12 +1,15 @@
+/* SECTION */
+
 article {
     color: white;
 }
 
+/* CLASSES */
+
 .menu_element {
     color: black;
-    /* This is a comment*/
     font-size: 200%;
-    font-size: 30pt; 
+    font-size: 30pt;
     text-shadow: -4px -5px 10px white, 5px 4px 10px white;
     white-space: pre-wrap;
 }
@@ -20,6 +23,8 @@ article {
     background-color: black;
     text-align: center;
 }
+
+/* ID */
 
 #LastFooter {
     color: white;
