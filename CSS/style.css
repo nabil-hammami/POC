@@ -7,9 +7,19 @@ article {
 /* CLASSES */
 
 .Main_Body {
-    background-color: black;
-    background-image: url("../IMG/Work_In_Progress.png");
+    background: -moz-linear-gradient(rgb(8, 54, 70), black, rgb(8, 54, 70));
+    background-image: url("../IMG/Work_In_Progress.png"), url("../IMG/Work_In_Progress.png");
+    background-position: left, right;
     background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1.menu {
+    transition: transform 2s
+}
+
+h1.menu:hover {
+    transform: rotateY(360deg);
 }
 
 a.menu:link {
@@ -19,6 +29,8 @@ a.menu:link {
     text-shadow: -4px -5px 10px white, 5px 4px 10px white;
     padding-right: 20px;
     padding-left: 20px;
+    transition-property: all;
+    transition-duration: 1s;
 }
 
 a.menu:visited {
@@ -32,9 +44,11 @@ a.menu:visited {
 a.menu:hover {
     color: black;
     font-size: 30pt;
-    text-shadow: -4px -5px 20px white, 5px 4px 20px rgb(118, 228, 103);
+    text-shadow: -4px -5px 20px white, 5px 4px 20px yellow;
     padding-right: 20px;
     padding-left: 20px;
+    width: 100px;
+    transform: rotateX(180deg)
 }
 
 a.menu:active {
@@ -53,6 +67,7 @@ a.menu:active {
     color: white;
     background-color: black;
     text-align: center;
+    font-size: 20px;
 }
 
 .Gherkin_functionnality {
