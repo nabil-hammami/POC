@@ -70,6 +70,10 @@ a.menu:active {
     font-size: 20px;
 }
 
+.comments {
+    color:white;
+}
+
 .Gherkin_functionnality {
     color: black;
     background-color: rgb(100, 144, 214);
@@ -90,5 +94,9 @@ a.menu:active {
 }
 
 #social {
+    text-align: center;
+}
+
+#calculator_specs {
     text-align: center;
 }

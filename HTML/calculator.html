@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Very Simple Calculator</title>
+    <script>
+        function clear_value(field) {
+            // alert(field);
+            if (field == 1) {
+                document.getElementById('value_1').value = null;
+            }
+            if (field == 2) {
+                document.getElementById('value_2').value = null;
+            }
+        }
+    </script>
+</head>
+
+<body bgcolor="black">
+    <article class="comments">
+        A very simple calculator implemented using a BDD approach.
+        <h3><a href="../IMG/Calculator_specs.png" target="_blank">HIGH LEVEL SPECS</a></h3> <br>
+    </article>
+    <article>
+        <form action="GET">
+            <input type="text" id="value_1">
+            <input type="button" value="clear" name="clear_value_1" onclick="clear_value(1)"><br>
+            <input type="text" id="value_2">
+            <input type="button" value="clear" name="clear_value_2" onclick="clear_value(2)"><br>
+            <input type="button" value="+" name="addition">
+            <input type="button" value="-" name="addition">
+            <input type="button" value="x" name="addition">
+            <input type="button" value="/" name="addition"><br>
+            <input type="text" name="result"><br>
+        </form>
+    </article>
+
+
+</body>
+
+</html>
