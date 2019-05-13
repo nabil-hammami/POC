@@ -1,0 +1,23 @@
+{
+  "name": "POC",
+  "version": "1.0.0",
+  "description": "POC regarding use of automation testing tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabil-hammami/POC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabil-hammami/POC/issues"
+  },
+  "homepage": "https://github.com/nabil-hammami/POC#readme",
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
