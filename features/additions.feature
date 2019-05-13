@@ -15,10 +15,10 @@ Feature: additions
     Scenario Outline: I mustn't be able to operate caracters different from int, float or negative values
         Given "<first_value>" and "<second_value>" are provided
         When I ask for the sum
-        Then I should obtain "Not A Number"
+        Then I should obtain "Not a Number"
         Examples:
             | first_value | second_value |
-            | John        | 34           |
+            | John        | 56           |
             | 5.4         | Holmes       |
             | Robert      | T1000        |
             | ç%&         | öä£          |

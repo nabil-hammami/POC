@@ -2,7 +2,8 @@ const assert = require('assert').strict;
 const { Given, When, Then } = require('cucumber');
 
 function add(val1, val2) {
-    if (typeof val1 !== "number") {
+    if ((parseFloat(val1) === "NaN")||(parseFloat(val2) === "NaN")){
+    //if (typeof val1 !== "number") {
         result = "Not a Number";
     } else {
         result = val1 + val2;
