@@ -5,12 +5,10 @@ const { Builder } = require('selenium-webdriver');
 async function navigate() {
     // Webdriver declaration
     let driver = await new Builder().forBrowser('firefox').build();
-    driver.get('https://nabil-hammami.github.io/POC/');
-    await driver.findElement(By.name('menuHome')).click();
-    //await driver.findElement(By.name('q')).sendKeys('webdriver', Key.RETURN);
-    await driver && driver.quit();
+   // await driver.get('https://nabil-hammami.github.io/POC/');
+    await driver.get("C:\\Users\\Nabil\\Desktop\\POC\\index.html");
+    await driver.findElement({name:'menuHome'}).click();
 }
-
 
 Given('I visit my website', function () {
     return ;
