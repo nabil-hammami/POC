@@ -2,7 +2,11 @@
   "name": "POC",
   "version": "1.0.0",
   "description": "POC regarding use of automation testing tools",
+<<<<<<< HEAD
   "main": "stepdefs.js",
+=======
+  "main": "index.js",
+>>>>>>> first-cucumber
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js"
   },
