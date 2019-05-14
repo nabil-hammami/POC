@@ -30,7 +30,7 @@ function add(val1, val2) {
     if (typeControl == "OK") {
         result = parseFloat(val1) + parseFloat(val2);
     } else {
-        result = 0;
+        result = "Not a number";
     }
     document.getElementById('resultField').value = result;
 }
