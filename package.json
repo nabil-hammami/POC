@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/nabil-hammami/POC#readme",
   "devDependencies": {
-    "cucumber": "^5.1.0"
+    "cucumber": "^5.1.0",
+    "geckodriver": "^1.16.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
