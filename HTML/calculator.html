@@ -4,17 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Very Simple Calculator</title>
-    <script>
-        function clear_value(field) {
-            // alert(field);
-            if (field == 1) {
-                document.getElementById('value_1').value = null;
-            }
-            if (field == 2) {
-                document.getElementById('value_2').value = null;
-            }
-        }
-    </script>
+    <script type="text/javascript" src="../JS/calculator.js"></script>
 </head>
 
 <body bgcolor="black">
@@ -24,15 +14,15 @@
     </article>
     <article>
         <form action="GET">
-            <input type="text" id="value_1">
+            <input id="value_1" type="text">
             <input type="button" value="clear" name="clear_value_1" onclick="clear_value(1)"><br>
-            <input type="text" id="value_2">
+            <input id="value_2" type="text">
             <input type="button" value="clear" name="clear_value_2" onclick="clear_value(2)"><br>
-            <input type="button" value="+" name="addition">
-            <input type="button" value="-" name="addition">
-            <input type="button" value="x" name="addition">
-            <input type="button" value="/" name="addition"><br>
-            <input type="text" name="result"><br>
+            <input type="button" value="+" name="addition" onclick="add()">
+            <input type="button" value="-" name="substraction" onclick="WIP()">
+            <input type="button" value="x" name="multiplication" onclick="WIP()">
+            <input type="button" value="/" name="division" onclick="WIP()"><br>
+            <input id="resultField" type="text"><br>
         </form>
     </article>
 
