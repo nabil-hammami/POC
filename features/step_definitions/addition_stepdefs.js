@@ -1,5 +1,5 @@
 const assert = require('assert').strict;
-const { Given, When, Then } = require('cucumber');
+const { When, Then } = require('cucumber');
 
 function checkType(val1, val2) {
     var res1 = parseFloat(val1);
