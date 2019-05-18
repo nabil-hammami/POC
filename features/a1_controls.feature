@@ -1,8 +1,8 @@
 Feature: controls
 
-    Only numeric, "-" and "." caracters must be allowed
+    Only numeric, "-" and "." characters must be allowed
 
-    Scenario Outline: I mustn't be able to operate caracters different from int, float or negative values
+    Scenario Outline: I mustn't be able to operate characters different from int, float or negative values
         Given "<first_value>" and "<second_value>" are provided
         When I check the type
         Then I should obtain "<result>"
